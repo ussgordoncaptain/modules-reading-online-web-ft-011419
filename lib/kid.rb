@@ -5,7 +5,7 @@ class Kid
   def initialize (name)
     @name=name
   end
-  :attr_accessor :name
+  attr_accessor :name
  extend FancyDance::ClassMethods
   include FancyDance::InstanceMethods
 end 
